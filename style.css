@@ -16,6 +16,13 @@ body {
   height: 100vh;
   margin: 0;
   padding: 20px;
+
+}
+.container {
+  background-color: rgb(142, 71, 49);
+  border-radius: 15px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+  width: 500px;
 }
 
 h1 {
@@ -30,9 +37,10 @@ p {
   color: #fff;
   background: var(--primary-color);
   cursor: pointer;
-  border-radius: 25px;
+  border-radius: 15px;
   font-size: 12px;
   padding: 5px 12px;
+
 }
 
 .money-img {
@@ -52,6 +60,7 @@ p {
   -moz-appearance: none;
   -webkit-appearance: none;
   appearance: none;
+  border-radius: 15px;
   border: 1px solid #dedede;
   font-size: 16px;
   /*  You may not need these following lines. The arrow did not show for me on MacOS/Chrome so I added it. Just remove it if you would like  */
@@ -78,7 +87,7 @@ p {
 
 .rate {
   color: var(--primary-color);
-  font-size: 14px;
+  font-size: 15px;
   padding: 0 10px;
 }
 
